@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Montserrat Bold ';
+    src: url('./my_fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('./my_fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url('./my_fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('./my_fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./my_fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('./my_fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Unna Bold ';
+    src: url('./my_fonts/Unna-Bold.woff2') format('woff2'),
+        url('./my_fonts/Unna-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unna';
+    src: url('./my_fonts/Unna-Regular.woff2') format('woff2'),
+        url('./my_fonts/Unna-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Nunito Sans Bold ';
+    src: url('./my_fonts/NunitoSans-Bold.woff2') format('woff2'),
+        url('./my_fonts/NunitoSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('./my_fonts/NunitoSans-Regular.woff2') format('woff2'),
+        url('./my_fonts/NunitoSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito Sans  Light';
+    src: url('./my_fonts/NunitoSans-Light.woff2') format('woff2'),
+        url('./my_fonts/NunitoSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

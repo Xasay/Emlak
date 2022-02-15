@@ -1,0 +1,1074 @@
+@import url('./fonts.css');
+@import url('./reset.css');
+@import url('./footer.css');
+
+
+:root{
+    --my-purple :#5056B5 ;
+    --my-grey:#F2F2F2;
+    --my-green : #D6EBE4 ;
+    --my--blue : #666EE8;
+}
+
+
+header{
+    background-color: var(--my-grey);
+}
+
+
+.header_in{
+    text-align: right;
+    width: 96%;
+    margin: 0% auto;
+    padding: 10px 0px;
+    
+}
+
+.advertisement_btn{
+    background-color: var(--my-purple);
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    /* background-color: transparent; */
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.advertisement_btn:hover{
+    color: white;
+}
+
+.slider_section{
+    height: 600px;
+    position: relative;
+}
+
+
+.agentlik_banner{
+    height: 360px;
+}
+
+.agentlik{
+    background-color:var(--my-grey) ;
+}
+
+.item_image{
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+
+.agentlik_owner{
+    background-color:white;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    width: 30%;
+}
+
+.owner_image{
+    width: 70px;
+    height: 70px;
+
+}
+
+.owner_image ~ div{
+    padding-left: 5px;
+}
+
+
+.owner_name ~ a {
+    text-decoration: none;
+}
+
+.owner_name ~ .mail{
+    color: #2AA1EF;
+}
+
+.owner_name ~ .tel{
+    color: #898EA2 ;
+}
+
+
+.agentlik_item{
+    background-color: white;
+    width: calc(95% / 2 );
+    margin-bottom: 35px;
+    width: 70%;
+}
+
+.agentlikler > div:not(:nth-child(2n)){
+    margin-right: 50px;
+}
+
+.agentlik_item  .item_image{
+    width: auto;
+    height: 100%;
+}
+
+.agentlik_item  .agentlik_text{
+    width: 70%;
+    padding: 15px 0px ;
+    height: auto;
+}
+
+.agentlik_item  .agentlik_text a {
+    text-decoration: none;
+}
+
+.agentlik_item  .agentlik_text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.14286px;
+    color: #000000;
+}
+
+.agentlik_item  .teklif{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.742857px;
+
+    color: #919191;
+}
+
+.agentlik_item  .teklif  .count{
+    margin-right :5px;
+}
+ 
+.agentlik_item   .baxis_sayi{
+
+    display: flex;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.856px;
+    line-height: 14px;
+    color: #898EA2;
+    text-transform: capitalize;
+    margin-top: 9px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.baxis_sayi img{
+    margin-right: 5px;
+}
+
+.agentlik_item   .excerpt{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.08571px;
+    color: #000000;
+}
+
+
+
+.call_btn{
+    background: #666EE8;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 20px ;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    margin-top: 18px;
+}
+
+
+.call_btn:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.location_container{
+    margin-top: 45px;
+}
+
+.location_container p {
+    font-family: 'Montserrat';
+    margin: 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #898EA2;
+}
+
+.location_container a {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #898EA2;
+}
+
+.navigation_section{
+    background-color: var(--my-grey);
+    padding: 24px 0px;
+}
+
+.navbar_list{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar_item{
+    background-color: white;
+    padding: 5px 45px;
+    color: var(--my--blue);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #E4E5EC;
+    transition: all .2s linear  ;
+    -webkit-transition: all .2s linear  ;
+    -moz-transition: all .2s linear  ;
+    -ms-transition: all .2s linear  ;
+    -o-transition: all .2s linear  ;
+}
+
+.navbar_item:hover {
+    cursor: pointer;
+    background-color: var(--my--blue);
+    color: white;
+    border-color: white;
+}
+
+.navbar_item.my_active{
+    background-color: var(--my--blue);
+    color: white;
+    border-color: white;
+}
+/*******************************************/
+
+.elanlar_section{
+    background-color: var(--my-grey);
+}
+
+.heading_section{
+    height: 155px;
+    background-color: var(--my-grey);
+    padding: 30px 66px ;
+}
+
+.heading_section >  div{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.heading_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.74286px;
+    color: #000000;
+}
+
+.heading_text span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.971429px;
+    color: #000000;
+}
+
+/*************************/
+.item_container{
+    background-color: white;
+    padding: 10px;
+}
+
+.item_list{
+    margin: 0px;
+    padding: 20px 75px ;
+}
+
+.section_advertisement_item{
+    width: calc( 94% / 3);
+    padding: 31px 0px;
+}
+
+.section_advertisement_item:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+
+.section_advertisement_item > div{
+    width: 100%;
+}
+
+.section_advertisement_item a{
+    text-decoration: none;
+}
+
+
+
+.section_advrsmnt_part1{
+    margin: 0px 10px;
+}
+
+
+
+.place_name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #6495FE;
+    text-transform: uppercase;
+
+}
+
+
+.place_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #37466F;
+}
+
+.place_adres_continer{
+    margin-bottom: 17.8px;
+    margin-top: 7.5px;
+    align-items: center;
+}
+
+
+.place_adres{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.4375px;
+    color: #000000;
+    text-decoration: none;
+   
+}
+
+
+
+.section_advrsmnt_part2{
+    position: relative;
+    height: 200px;
+    margin-bottom: 15.7px;
+}
+
+.single_item_sale_btn {
+    position: absolute;
+    top: 9%;
+    left: 6%;
+    z-index: 2;
+    background: #666EE8;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    padding: 10px 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    box-shadow: 1px 6px 7px rgb(0 0 0 / 45%);
+
+}
+
+.single_item_sale_btn:hover{
+    color: white;
+}
+
+.place_img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.place_info{
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 1px solid #ddd ;
+    margin: 0px 10px 15.7px 10px ;
+    padding-bottom: 12px;
+}
+
+.place_info > li:not(:last-child)::after{
+    content: '/';
+    margin: 0px 5px;
+}
+
+.place_info li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.4375px;
+    color: #525252;
+    
+} 
+
+.general_price_container span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #000000;
+
+}
+
+.general_price_container img{
+    margin-bottom: 6px;
+}
+
+.area_price_container span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.4375px;
+    color: #525252;
+
+}
+
+.area_price_container img{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 2px;
+}
+
+.place_price_info{
+  
+    margin: 0px 10px 15.7px 10px ;
+    padding-bottom: 12px;
+   
+    
+}
+
+
+.place_document {
+    position: relative;
+}
+
+.place_document::before{
+    content: 'Kupça var';
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: #8BC34A;
+    border-radius: 4px;
+    width: 70px;
+    text-align: center;
+    font-size: 12px;
+    bottom: 0%;
+    left: 0%;
+    transform: translate(-21px,-56px);
+    -webkit-transform: translate(-21px,-56px);
+    -moz-transform: translate(-21px,-56px);
+    -ms-transform: translate(-21px,-56px);
+    -o-transform: translate(-21px,-56px);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    z-index: 1;
+}
+.place_document::after{
+    content: ' ';
+    display: none;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transform: translate(8px,-44px);
+    -webkit-transform: translate(8px,-44px);
+    -moz-transform: translate(8px,-44px);
+    -ms-transform: translate(8px,-44px);
+    -o-transform: translate(8px,-44px);
+    border:6px solid #8BC34A ;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    z-index: 1;
+}
+
+.place_document:hover::after {
+    display: block;
+}
+
+.place_document:hover::before {
+    display: block;
+}
+
+
+.section_advrsmnt_part4{
+    border-top: 1px solid #ddd;
+    padding-top: 23px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company_name_block{
+    display: flex;
+}
+
+
+.place_company_name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.2px;
+    line-height: 18px;
+    letter-spacing: 0.35px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.place_company_name:hover{
+    color: black;
+}
+
+.place_ready_date{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.2px;
+    line-height: 18px;
+    letter-spacing: 0.31875px;
+    color: #000000;
+}
+
+
+@media (max-width:1200px){
+    .section_advertisement_item{
+        width: calc(93% / 3);
+    }
+}
+
+@media(max-width:1110px){
+    .agentlik_item .excerpt{
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 1080px){
+    .navbar_item{
+        padding: 5px 33px;
+    }
+}
+
+@media (max-width : 1055px){
+    .section_advertisement_item{
+        width: calc(92% / 3);
+    }
+    .agentlik_owner{
+        padding:15px 15px 0px 15px;
+    }
+    
+}
+
+
+
+@media(max-width:1010px){
+    .place_info{
+        margin: 0px 0px 15.7px 0px;
+    }
+    .section_advrsmnt_part1 {
+        margin: 0px;
+    }
+    .agentlik_item{
+        width: 68%;
+    }
+    .agentlik_owner{
+        width: 32%;
+    }
+}
+
+@media (max-width:970px){
+    .item_list{
+        padding: 20px 30px;
+    }
+    .heading_section{
+        padding: 30px 44px;
+    }
+    .section_advertisement_item{
+        padding-bottom: 13px;
+    }
+    .section_advrsmnt_part4{
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
+
+@media (max-width :950px){
+    .section_advertisement_item{
+        width: calc(91% / 3);
+    }
+    .place_info{
+        flex-direction: column;
+    }
+
+    .place_info > li:not(:last-child)::after{
+        display: none;
+    }
+    .agentlik_item{
+        width: 67%;
+    
+    }
+    .agentlik_owner{
+        width: 33%;
+    }
+}
+
+
+@media(max-width:920px){
+    .agentlik_item{
+        width: 65%;
+    }
+    .agentlik_owner{
+        width: 35%;
+    }
+
+    .agentlik_item .excerpt{
+        line-height: 16px;
+        font-size: 13px;
+    }
+    .agentlik_item .agentlik_text{
+        padding: 10px !important;
+    }
+
+}
+
+
+@media (max-width: 900px){
+    .navbar_item{
+        padding: 5px 25px;
+    }
+}
+
+
+@media (max-width : 880px){
+    .section_advertisement_item:not(:nth-child(3n)) {
+        margin-right: 20px;
+    }
+
+    .section_advertisement_item{
+        width: calc(94% / 3);
+    }
+    .location_container{
+        margin-top: 27px;
+    }
+    .agentlik_owner{
+        width: 40%;
+    }
+    .agentlik_item{
+        width: 60%;
+    }
+
+}
+
+
+@media (max-width : 860px){
+    .place_adres{
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width:810px){
+    .item_list{
+        padding: 20px 17px;
+    }
+
+    .heading_section {
+        padding: 30px 23px;
+    }
+}
+
+@media (max-width :780px){
+    .heading_text{
+        font-size: 35px;
+    }
+
+    .navbar_item{
+        padding: 5px 19px;
+    }
+
+    .place_title{
+        font-size: 17px;
+    }
+    .place_adres_continer{
+        margin-bottom: 8.8px;
+        margin-top: 1.5px;
+    }
+    .place_adres_continer svg{
+        display: none;
+    }
+    .place_info {
+        margin: 0px 0px 5.7px 0px;
+    }
+    .section_advrsmnt_part2{
+        height: 145px;
+    }
+
+    .place_price_info {
+        margin: 0px 0px 0.7px 0px;
+        padding-bottom: 12px;
+    }
+
+    .section_advrsmnt_part4{
+        padding-top: 13px;
+    }
+
+
+
+}
+
+
+@media (max-width:760px){
+    .about_agentlik{
+        flex-direction: column;
+    }
+    .agentlik_item{
+        width: 100%;
+    }
+    .agentlik_owner{
+        width: 100%;
+        border-left: none;
+    }
+}
+
+
+@media (max-width:740px){
+    .section_advertisement_item {
+        width: calc(93% / 3);
+    }
+    .heading_section {
+        padding: 0px 23px;
+        height: 115px;
+    }
+    
+    .single_item_sale_btn{
+        padding: 6px 9px;
+    }
+}
+
+@media (max-width:700px){
+    .navbar_item{
+        padding: 5px 14px;
+    }
+}
+
+@media(max-width:650px){
+    .section_advertisement_item {
+        width: calc(96% / 2);
+    }
+    .section_advertisement_item:not(:nth-child(2n)) {
+        margin-right: 20px;
+    }
+    .section_advertisement_item:nth-child(2n) {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:615px){
+    .navbar_item{
+        font-size: 12px;
+    }
+}
+
+
+
+
+@media (max-width :570px){
+    .navbar_list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar_item{
+        margin: 2px;
+    }
+    .section_advertisement_item {
+        width: calc(95% / 2);
+    }
+    .agentlik_item{
+        flex-direction: column;
+    }
+    .agentlik_item .item_image {
+        width: 38%;
+        align-self: center;
+        height: auto;
+        border-right: none;
+    }
+
+    .agentlik_item .agentlik_text{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:560px) {
+    .navigation_section{
+        padding: 10px 0px;
+    }
+    .heading_text {
+        font-size: 29px;
+        line-height: 41px;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .item_list{
+        padding: 10px 5px;
+    }
+
+
+    .section_advertisement_item{
+        width:47%;
+        background-color: rgb(248, 246, 246);
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+        margin-bottom: 15px;
+        padding: 5px 0px;
+     }
+
+     .place_title{
+         display: none;
+     }
+
+     .place_info{
+        display:none;
+     }
+
+     .company_name_block{
+         display: none;
+     }
+    .agentlik_banner{
+        height: 235px;
+    }
+    .place_document::before{
+        transform: translate(-46px , -56px);
+        -webkit-transform: translate(-46px , -56px);
+        -moz-transform: translate(-46px , -56px);
+        -ms-transform: translate(-46px , -56px);
+        -o-transform: translate(-46px , -56px);
+    }
+}
+
+@media (max-width:440px){
+    .section_advertisement_item:not(:nth-child(2n)) {
+        margin-right: 13px;
+    }
+    .section_advertisement_item{
+        width: 48%;
+    }
+}
+
+
+@media (max-width:420px ) {
+    .place_adres{
+        line-height: 16px;
+    }
+    .section_advrsmnt_part2 {
+        height: 100px;
+    }
+    .general_price_container span{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+
+
+
+@media (max-width:390px){
+
+    .agentlik_banner{
+        height: 183px;
+    }
+
+    .heading_text{
+        line-height: 22px;
+        font-size: 30px;
+    }
+
+    .littlecase_heading_text{
+        line-height: 22px;
+        font-size: 20px;
+    }
+
+    .item_container{
+        padding: 1px;
+    }
+
+    .section_advertisement_item:not(:nth-child(2n)){
+        margin-right: 6px;
+    }
+    
+
+    .heading_button{
+        padding: 4px 9px;
+        font-size: 8px;
+    }
+
+    .heading_text ~ span{
+        font-size: .8rem;
+    }
+
+    .littlecase_heading_text ~ span{
+        font-size: .8rem;
+    }
+
+    .about_title h1 {
+        font-size: 23px;
+    }
+
+    .about_title p {
+        line-height: 23px;
+        font-size: 13px;
+    }
+
+    .about_list {
+        padding: 0px 10px;
+    }
+
+    .slider_section {
+        height: 262px;
+    }
+
+   
+
+    .axtaris{
+        padding:10px 8px;
+        font-size: 16px;
+    }
+
+    
+    .heading_section{
+        height: 60px;
+        padding: 9px;
+        height: 93px;
+    }
+
+    .heading_text{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .section_advertisement_item{
+        width: 49%;
+    }
+
+    .place_document::before{
+        transform: translate(-46px , -56px);
+        -webkit-transform: translate(-46px , -56px);
+        -moz-transform: translate(-46px , -56px);
+        -ms-transform: translate(-46px , -56px);
+        -o-transform: translate(-46px , -56px);
+    }
+}
+
+@media (max-width: 360px){
+   
+
+   
+
+    
+    .place_title {
+        font-size: 16px;
+    }
+
+    .enter{
+        padding: .175rem !important;
+    }
+
+    .advertisement_btn {
+        padding: .175rem !important;
+    }
+    
+   
+
+}
+
+@media (max-width:330px){
+    .etrafli_btn {
+        padding: 10px 9px;
+    }
+}

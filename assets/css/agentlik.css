@@ -1,0 +1,297 @@
+.agentlik_section{
+    background-color: #F2F2F2;
+}
+
+
+.agentlik_heading{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.agentlik_heading h1 {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.74286px;
+
+}
+
+.agentlikler{
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+.agentlik_item{
+    background-color: white;
+    padding: 5px;
+    width: calc(95% / 2 );
+    margin-bottom: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 3px 3px 12px rgb(0 0 0 / 28%);
+
+}
+
+.agentlikler > div:not(:nth-child(2n)){
+    margin-right: 50px;
+}
+
+.agentlik_item  .item_image{
+    width: auto;
+    height: 100%;
+}
+
+.agentlik_item  .item_image a {
+    width: 100% ;
+}
+
+.agentlik_item  .agentlik_text{
+    width: 70%;
+    padding: 15px 0px ;
+    height: auto;
+}
+
+.agentlik_item  .agentlik_text a {
+    text-decoration: none;
+}
+
+.agentlik_item  .agentlik_text h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.14286px;
+    color: #000000;
+}
+
+.agentlik_item  .teklif{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.742857px;
+
+    color: #919191;
+}
+
+.agentlik_item  .teklif  .count{
+    margin-right :5px;
+}
+ 
+.agentlik_item   .baxis_sayi{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8.41px;
+    line-height: 9px;
+    
+    text-transform: capitalize;
+    color: #898EA2;
+    margin: 5px 0px;
+}
+
+.agentlik_item   .excerpt{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.742857px;
+    color: #919191;
+    margin-bottom: 0px;
+}
+
+@media (max-width:1065px){
+    .agentlik_item {
+        width: calc(94% / 2);
+    }
+
+    .agentlik_heading  h1 {
+        font-size: 37px;
+    }
+}
+
+@media (max-width : 950px){
+
+    .agentlikler{
+        padding: 10px;
+    }
+
+    .agentlik_item{
+        flex-direction: column;
+        width: calc(96% / 2);
+    }
+    .agentlik_item .item_image{
+        width: 60%;
+        align-self: center;
+    }
+
+    .agentlikler > div:not(:nth-child(2n)){
+        margin-right: 22px;
+    }
+
+    .agentlik_item .agentlik_text{
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width : 930px){
+    .agentlikler > div:not(:nth-child(2n)){
+        margin-right: 33px;
+    }
+
+    .agentlik_item{
+        width: calc(96% / 2 );
+    }
+}
+
+@media (max-width :890px){
+   .agentlik_item {
+       width: calc( 95% / 2 );
+   }
+}
+
+@media (max-width : 765px){
+    .agentlik_heading h1{
+        font-size: 30px;
+    }
+    .agentlik_item .agentlik_text h2{
+        font-size: 17px;
+    }
+}
+
+@media (max-width : 700px){
+    .agentlik_item {
+        width: calc( 94% / 2 );
+    } 
+}
+
+
+
+
+@media (max-width : 640px){
+    .agentlik_heading h1{
+        font-size: 24px;
+    }
+}
+
+@media (max-width : 590px){
+    .agentlik_item {
+        width: calc( 93% / 2 );
+    }
+}
+
+
+@media (max-width : 535px) {
+    .agentlik_heading h1{
+        font-size: 19px  ;
+    }
+}
+
+@media (max-width : 510px){
+    
+    .agentlikler > div:not(:nth-child(2n)){
+        margin-right: 20px;
+    }
+    .agentlik_item {
+        width: calc( 95% / 2 );
+    }
+}
+
+
+
+@media (max-width : 480px){
+    .agentlikler{
+        flex-direction: row;
+    }
+
+
+    .agentlik_item .excerpt{
+        font-size: 9px;
+    }
+
+    .baxis_sayi{
+        display: none;
+    }
+
+    .agentlik_item{
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 18px;
+    }
+
+    .agentlikler > div:not(:nth-child(2n)) {
+        margin-right: 0px;
+    }
+
+    .agentlik_item .item_image{
+        width: 30%;
+        height: auto;
+        align-self: auto;
+    }
+
+    .agentlik_heading h1{
+        font-size: 12px;
+        line-height: 19px;
+        margin-bottom: 0px;
+    }
+
+    .agentlik_item .agentlik_text{
+        padding: 0px;
+    }
+
+    .agentlik_item .agentlik_text h2{
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+
+    .agentlikler {
+        padding: 10px 4px;
+    }
+
+}
+
+
+@media (max-width :420px){
+    .agentlik_text .excerpt {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width:360px){
+    .agentlik_item .item_image{
+        width: 37%;
+    }
+}
+
+@media (max-width : 320px){
+    .agentlik_item .item_image{
+        width: 44%;
+    }
+}

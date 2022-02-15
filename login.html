@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,minimal-ui" />
+        <title>Daxil ol - HajMa Emlak</title>
+        <link rel="stylesheet" href="./assets/css/stylee.css?">
+        <link rel="icon" href="./assets/css/logo/32x32.png.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <!-- Bootstrap CSS file -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    </head>
+    <body class="h-100" >
+        <div class="hajma_login full_width " style="height: 110vh;" >
+            <div class="login_header" >
+                <p  onclick="location.href='./index.html'"  class="header_text" >
+                    <i class="fa fa-arrow-left"></i>
+                    Əsas səhifəyə qayıt
+                </p>
+            </div>
+
+            <div class="login_container">
+                <div class="login_heading  d-flex flex-column align-items-center justify-content-center" >
+                    <h1>Daxil ol</h1>
+                    <p>
+                        Hesabınızı idarə etmək üçün daxil olun
+                    </p>
+                </div>                
+                 <form class="login_form"  action="#" method="POST"  enctype="multipart/form-data" >
+                    <div class="col-md-12">
+                        <label for="validationCustomUsername" class="form-label">Email</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend" style="background: unset;font-size: 20px;padding-right: 17px;" >@</span>
+                          <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="company@gmail.com" >
+                        
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="validationCustomUsername">Şifrəniz</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend" style="background: unset;font-size: 20px;" >
+                            <i class="fa fa-lock" style="font-size: 20px; margin: 3px;"></i>
+                          </span>
+                          <input type="password" class="password form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="********" >
+                          <span class="show_password" >
+                            <i class="far fa-eye"></i>
+                          </span>
+                          <span class="hide_password" >
+                            <i class="far fa-eye-slash"></i>
+                          </span>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                    </div>
+                    <button  class="btn btn-primary w-100 mt-3 "  type="submit" >
+                        Daxil ol
+                    </button>
+                </form>
+                <div class="login_links d-flex flex-column justify-content-center align-items-center w-100 " >
+                    <a class="register"  href="./register.html">Hesabınız yoxdur? Qeydiyyatdan  keçin </a>
+                    <a class="forgot_password"  href="./resetPassword.html">Şifrəni unutmusunuz?</a>
+                </div>
+            </div>
+        </div>
+        <!-- Jquery plugin -->
+        <script src="./assets/js/jquery-3.6.0.min.js"></script>
+        <!-- Bootstrap JS file -->
+        <script src="./assets/js/bootstrap.js"></script>
+        <script>
+            $(document).ready(function(){
+               
+                $('.show_password').on('click',function(){
+                    $('.password').attr('type','text');
+                    $(this).css({'display':'none'});
+                    $('.hide_password').css({'display':'block'})
+                })
+
+                $('.hide_password').on('click',function(){
+                    $('.password').attr('type','password');
+                    $(this).css({'display':'none'});
+                    $('.show_password').css({'display':'block'})
+                })
+
+            })
+        </script>
+    </body>
+  
+</html>

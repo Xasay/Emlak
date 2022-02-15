@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,minimal-ui" />
+    <title>Elaqe - HajMa Emlak </title>
+    <link rel="stylesheet" href="./assets/css/connect.css?">
+    <link rel="icon" href="./assets/css/logo/32x32.png.png">
+
+     <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+</head>
+
+<body>
+    <header class="full_width w-100 ">
+        <div class="header_in">
+            <a href="./conntect.html" target="_self" class="advertisement_btn   ">Elan yerləşdir</a>
+            <a href="./login.html" target="_self" class="enter btn btn-primary ">Daxil ol</a>
+        </div>
+    </header>
+   
+
+
+    <main role="main">
+        <section class="connect_section  full_width ">
+            <div class="center">
+                <h1>Əlaqə</h1>
+                <form action="#" method="POST" enctype="multipart/form-data">
+                    <ul class="connect_list  flex flex-column ">
+
+                        <li class="flex flex-column ">
+                            <label for="">Əlaqədər şəxs <sup>*</sup> </label>
+                            <input type="text" placeholder="company@gmail.com" required>
+                        </li>
+
+                        <li class="flex flex-column ">
+                            <label for="">Email <sup>*</sup> </label>
+                            <input type="email" placeholder="company@gmail.com" required>
+                        </li>
+
+                        <li class="flex flex-column ">
+                            <label for="">Telefonlar <sup>*</sup> </label>
+                            <input type="number" placeholder="(+994)503000303" required>
+                            <input type="number" placeholder="(+994)503000303">
+
+                        </li>
+
+                        <li class="flex  justify-content-center align-items-center ">
+                            <a  href="#elan_section" type='button' class="continue_btn"> Davam etmək </a>
+                        </li>
+
+                    </ul>
+                </form>
+            </div>
+        </section>
+
+        <section class="elan_section  full_width" id="elan_section" >
+            <div class="center">
+                <div class="elan_container full_width ">
+
+                    <div class="elan_heading  full_width ">
+                        <h2>Elan</h2>
+                    </div>
+
+                    <div class="elan_body flex full_width  ">
+                        <div class="body_left">
+                          
+                                <ul class="elements_list flex  justify-content-between   full_width ">
+
+                                    <li class="list_item   my-w-200px  flex flex-column  justify-content-between ">
+                                        <label class="elan_label w-100 " for="building_type">
+                                            Mən 
+                                        </label>
+                                        <div class="flex w-100 justify-content-between ">
+                                            <select name="sale" id="building_type" class='w-100'>
+                                                <option value=""></option>
+                                                <optgroup label="mənzil">
+                                                    <option value="1">— yeni tikili</option>
+                                                    <option value="2">— köhə tikili</option>
+                                                </optgroup>
+
+                                                <option value="3"> ev / villa </option>
+                                                <option value="4"> bağ </option>
+                                                <option value="5"> ofis </option>
+                                                <option value="6"> qaraj  </option>
+                                                <option value="7"> torpaq </option>
+                                                <option value="8"> obyekt </option>
+                                            </select>
+
+                                            
+                                        </div>
+                                    </li>
+
+                                    <li class="for_sale  my-w-200px  list_item  flex flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label" for="for_sale">
+                                            
+                                        </label>
+                                        <div class="flex w-100 justify-content-between ">
+                                            <select name="sale" id="for_sale" class='w-100'>
+                                                <option value=""></option>
+                                                <option value="for_sale">satıram</option>
+                                                <option value="for_rent">kirayə verirəm</option>
+                                            </select>
+                                        </div>
+                                    </li>
+
+                                    <li class="city  list_item full_width flex flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label" for="city">
+                                            Şəhər 
+                                        </label>
+                                        <div class="flex w-100 justify-content-between ">
+                                            <select name="sale" id="city" class='w-100 '>
+                                                <option value=""></option>
+                                                <option value="a"> Bakı </option>
+                                                <option value="b"> Ağcabədi </option>
+                                                <option value="c"> Ağdərə</option>
+                                                <option value="d"> Ağsu </option>
+                                                <option value="e"> Ağdam </option>
+                                                <option value="f"> Gəncə </option>
+                                            </select>
+                                        </div>
+                                    </li>
+
+                                    <li class="bina_novu   my-w-200px  list_item  flex flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="bina_novu">
+                                            Binanın növü 
+                                        </label>
+                                        <div class="flex w-100 justify-content-between ">
+                                            <select name="sale" id="bina_novu" class='w-100'>
+                                                <option value=""></option>
+                                                <option value="1"> Biznes center </option>
+                                                <option value="2"> Ev/mənzil </option>
+                                                <option value="3"> Villa </option>
+                                            </select>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="room_count  my-w-200px  list_item  flex flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="room_count">
+                                            Otaq sayı 
+                                        </label>
+                                        <div class="flex w-100 justify-content-between ">
+                                            <select name="sale" id="room_count" class="w-100" >
+                                                <option value=""></option>
+                                                <option value="1"> 1 </option>
+                                                <option value="2"> 2 </option>
+                                                <option value="3"> 3 </option>
+                                                <option value="4"> 4 </option>
+                                                <option value="5"> 5 </option>
+                                                <option value="5"> 6 </option>
+
+                                            </select>
+                                        </div>
+                                    </li>
+
+                                 
+                                    <li class="area list_item   my-w-200px  flex flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="area">
+                                            Sahə (m <sup>2</sup>)
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number"  min="0" id="area" class="w-100" > 
+                                        </div>
+                                    </li>
+
+                                    <li class="ev_villa_area   my-w-200px list_item   flex-column justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="ev_villa_area">
+                                            Ev / Villa Sahəsi  (m<sup>2</sup>)
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number"  min="0" id="ev_villa_area" class="w-100" >
+                                        </div>
+                                    </li>
+
+                                    <li class="ev_villa_floor_count  my-w-200px  list_item    flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="ev_villa_floor_count">
+                                            Ev / Villa Mərtəbə sayı 
+                                        </label>
+                                        <div class="flex w-100 align-items-center "> 
+                                            <input type="number"  id="ev_villa_floor_count" min="1" class="w-100" >
+                                        </div>
+                                    </li>
+
+                                    <li class="bag_area  my-w-200px list_item    flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="bag_area">
+                                            Bağ evin  Sahəsi (m<sup>2</sup>)
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number"  min="0" id="bag_area" class="w-100" >
+                                        </div>
+                                    </li>
+
+                                    <li class="bag_floor_count list_item  my-w-200px      flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label  w-100 " for="bag_floor_count">
+                                            Bağ evin  Mərtəbə sayı 
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number"  id="bag_floor_count" min="1" class="w-100" >
+                                        </div>
+                                    </li>
+
+                                    
+                                    <li class="office_area  my-w-200px list_item    flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label  w-100 " for="office_area">
+                                            Ofisin  Sahəsi   (m<sup>2</sup>)
+                                        </label>
+                                        <div class="flex  w-100  align-items-center ">
+                                            <input type="number" class="w-100" min="0" id="office_area">
+                                        </div>
+                                    </li>
+
+                                    <li class="garage_area  my-w-200px  list_item    flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="garage_area">
+                                            Qarajın   Sahəsi (m<sup>2</sup>)
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number"  min="0" id="garage_area" class="w-100"  >
+                                        </div>
+                                    </li>
+                                 
+
+                                    <li class="torpaq_area   my-w-200px list_item    flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="torpaq_area">
+                                            Torpaq sahəsi (sot)
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number" class="w-100 " min="0" id="torpaq_area"> 
+                                        </div>
+                                    </li>
+
+
+                                    <li class="object_area   my-w-200px list_item    flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100  " for="object_area">
+                                            Obyektin sahəsi (m<sup>2</sup>)
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number" class="w-100 " min="0" id="object_area">
+                                        </div>
+                                    </li>
+
+                                    <li class="floor  my-w-200px  list_item  flex flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="floor">
+                                             Mərtəbə
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number" class="w-100" id="floor" min="1">
+                                        </div>
+                                    </li>
+
+
+                                    <li class="floor_count  my-w-200px  list_item     flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="floor_count">
+                                             Mərtəbə sayı 
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number" class="w-100" id="floor_count" min="1">
+                                        </div>
+                                    </li>
+
+                                    <li class="build_floor_count   my-w-200px  list_item  flex  flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="build_floor_count">
+                                            Binanın  Mərtəbə sayı
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number" class="w-100" id="build_floor_count" min="1">
+                                        </div>
+                                    </li>
+
+
+                                    <li class="price list_item   my-w-200px full_width   flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="price">
+                                            Qiymət (AZN)
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <input type="number" class="w-100  " id="price" min="1">
+                                        </div>
+                                    </li>
+
+                                    <li class="day_by_day list_item   my-w-200px full_width   flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="price">
+                                           
+                                        </label>
+                                        <div class="flex w-100 justify-content-between ">
+                                            <select name="sale" id="bina_novu" class='w-100'>
+                                                <option value="1">gündə</option>
+                                                <option value="2">ayda</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                             
+                                    <li class="list_item full_width flex  flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="textarea">
+                                            Əlavə məlumat
+                                        </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <textarea name="more_definition" id="textarea" cols="60" class="w-100" ></textarea>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="list_item  my-w-200px  flex  flex-column  justify-content-between mt-4  ">
+                                        <label class="elan_label w-100 " for="region">
+                                            Rayon 
+                                        </label>
+                                        <div class="flex w-100 justify-content-between ">
+                                            <select name="sale" id="region" class='w-100'>
+                                                <option value=""></option>
+                                                <option value="1"> Absheron </option>
+                                                <option value="1"> Bineqedi </option>
+                                                <option value="1"> Yasamal </option>
+                                                <option value="1"> Nizami </option>
+                                                <option value="1"> Xetai </option>
+                                                <option value="1"> Sebayil </option>
+                                            </select>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="metro  my-w-200px  list_item  flex  flex-column  justify-content-between mt-4  ">
+                                        <label class="elan_label  w-100 " for="metro">
+                                            Yaxınlığda metro 
+                                        </label>
+                                        <div class="flex w-100 justify-content-between ">
+                                            <select name="sale" id="metro" class='w-100'>
+                                                <option value=""></option>
+                                                <option value="1"> Absheron </option>
+                                                <option value="1"> Bineqedi </option>
+                                                <option value="1"> Yasamal </option>
+                                                <option value="1"> Nizami </option>
+                                                <option value="1"> Xetai </option>
+                                                <option value="1"> Sebayil </option>
+                                            </select>
+                                        </div>
+                                    </li>
+
+                                    <li class="elan_item list_item  full_width flex  flex-column  justify-content-between mt-2  ">
+                                        <label class="elan_label w-100 " for="adress">
+                                            Ünvan 
+                                        </label>
+                                        <div class="flex w-100 align-items-center  position-relative ">
+                                            <input type="text" class="w-100  " id="adress" placeholder="Bakı" >
+                                            <span class="adress_bottom">Dəqiq unvanı göstərin ( küçə , evin nömrəsi)</span>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="xerite_item list_item  full_width flex  justify-content-between mt-4  ">
+                                        <button type="button" class="mt-2 open_map_btn w-100 "> Xəritədə göstər </button>
+                                    </li>
+
+                                    <li class="list_item  my-w-200px  flex  flex-column   mt-4  ">
+
+                                        <label class="elan_label"> Kupca var ? </label>
+
+                                        <div class="flex w-100 align-items-center ">
+                                            <select name="sale" id="kupca" class='w-100'>
+                                                <option value=""></option>
+                                               
+                                            </select>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="ipoteka list_item   my-w-200px   flex  flex-column   mt-4  ">
+
+                                        <label class="elan_label"> İpoteka olar ? </label>
+
+                                        <div class="flex w-100 align-items-center ">
+                                            <select name="sale" id="ipoteka" class='w-100'>
+                                                <option value=""></option>
+                                                
+                                            </select>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="kredit  list_item   my-w-200px  flex  flex-column  mt-4  ">
+
+                                        <label class="elan_label"> Kreditlə olar ? </label>
+                                        <div class="flex w-100 align-items-center ">
+                                            <select name="sale" id="kredit" class='w-100'>
+                                                <option value=""></option>
+                                               
+                                            </select>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="temir list_item  my-w-200px   flex flex-column  mt-4  ">
+
+                                        <label class="elan_label"> Təmir ? </label>
+
+                                        <div class="flex w-100 align-items-center ">
+                                            <select name="sale" id="temir" class='w-100'>
+                                                <option value=""></option>
+                                                
+                                            </select>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="esya  list_item  my-w-200px   flex  flex-column   mt-4  ">
+
+                                        <label class="elan_label"> Əşyalıdır ? </label>
+
+                                        <div class="flex w-100 align-items-center ">
+                                            <select name="sale" id="esya" class='w-100'>
+                                                <option value=""></option>
+                                               
+                                            </select>
+                                        </div>
+
+                                    </li>
+
+
+                                    <li class="kirakes list_item   my-w-200px   flex  flex-column    mt-4  ">
+
+                                        <label class="elan_label"> Kirakeş var ? </label>
+
+                                        <div class="flex w-100 align-items-center ">
+                                            <select name="sale" id="kirakes" class='w-100'>
+                                                <option value=""></option>
+                                               
+                                            </select>
+                                        </div>
+
+                                    </li>
+
+                                    <li class="list_item w-100  flex  flex-column  mt-4  ">
+                                        <div class="w-100 " >
+                                            <label class=" add_img_btn  " for="add_image">
+                                                <h4>Şəkilləri yüklə </h4>
+                                               <span>
+                                                   min 3 - max 30 şəkil yükləyə bilərsiniz
+                                               </span>
+                                               <div class="add_image_logo_container mx-auto "  >
+                                                   <img src="./assets/css/logo/upload.png" alt="upload_image_logo"  >
+                                               </div>
+                                            </label>
+
+                                            <div class="flex w-75 align-items-center input_div">
+                                                <input type="file" class="w-75  image_class " id="add_image" multiple accept="image/png,image/jpeg" >
+                                            </div>
+                                        </div>
+                                        <div id="images_list" class=" flex flex-wrap" >
+
+                                        </div>
+                                    </li>
+
+                                    <li class="list_item w-100  flex  flex-column  mt-4  ">
+                                        <div class="w-100 " >
+                                            <label class=" add_video_btn  " for="add_video">
+                                                <h4>Video yüklə </h4>
+                                               <span>
+                                                    Max 1 video yükləyə bilərsiniz
+                                               </span>
+                                               <div class="add_video_logo_container mx-auto "  >
+                                                   <img src="./assets/css/logo/upload.png" alt="upload_video_logo"  >
+                                               </div>
+                                            </label>
+
+                                            <div class="flex w-75 align-items-center video_input_div">
+                                                <input type="file" class="w-75  video_class " id="add_video" accept="video/mp4" >
+                                            </div>
+                                        </div>
+                                        <div id="video_list" class=" flex" >
+
+                                        </div>
+                                    </li>
+
+
+                                    <li class="send_elan list_item w-75  flex  flex-column  mx-auto  mt-4  " >
+                                        <button type="button" class="w-100"   >
+                                            elan yerləşdirin
+                                        </button>
+                                    </li>
+
+                                </ul>      
+                        </div>
+
+                        <div class="body_right">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="map_container"  >
+       <div class="position-relative  d-flex mx-auto h-100 "  >
+           <div class="map" id="map"></div>
+           <div close_map_block >
+              <button class="close_map_btn"> <i class="fas fa-times"></i> </button>
+           </div>
+       </div>
+    </div>
+
+    <!-- jQuery  plugin  -->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+
+     <!--  Google Map permission  -->
+     <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvbhSadByJy0I5_xTAWaurfQto_f4AGFQ&callback=initMap"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(document).ready( function(){
+
+            $( "#images_list" ).sortable();
+            $( "#images_list" ).disableSelection();
+
+        } )
+
+        /* Elan section i acmaq yeri */
+
+        $('.continue_btn').on('click',function(){
+            $('.elan_section').css({'display':'block'});
+        });
+
+        /* Xeritede goster btn */
+
+        $('.open_map_btn').on('click',function(){
+
+            $('.map_container').css({'display':'block'});
+            $('body').css({'overflow':'hidden'});
+
+        });
+
+        /* Xeriteni baglama yeri  */
+
+        $('.close_map_btn').on('click',function(){
+            $('.map_container').css({'display':'none'});
+            $('body').css({'overflow':'scroll'})
+        })
+
+        /*  Map function   */
+        function initMap() {
+
+        var location = { lat: 40.39205, lng: 49.84106 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: location
+        });
+
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+
+        }
+
+
+        /*** Preview  video upload  function ***/
+
+        var chooseVideoFile = $("#add_video");
+        var videoList = $("#video_list");
+        var videoArray = [];
+
+        $(".video_input_div").on("change", "#add_video", function () {
+            var count = $(this).prop('files').length;
+
+            for (var i = 0; i < count; i++) {
+                var file = $(this).prop('files')[i];
+                if (file) {
+                    const fileReader = new FileReader();
+                    fileReader.readAsDataURL(file);
+                    fileReader.addEventListener("load", function () {
+                        videoList.append(`
+                            <div class='video_append_element  flex flex-column mx-1 mt-1 '  >
+                                <video class='w-100 h-100'  controls>
+                                <source src="`+ this.result+`" type="video/mp4">
+                                Your browser does not support the video tag.
+                                </video>
+                                <button class="btn_del_video"> <i class="fas fa-times"></i> </button>
+                            </div>
+                        `);
+                    });
+                }   
+               
+
+                 $("#add_video").remove() ;
+                
+
+            }
+
+        });
+ 
+               
+
+        /* Preview video delete */
+
+        $('#video_list').on('click' , '.btn_del_video', function(){
+            $(this).parent().remove();  
+            $('.video_input_div').append(' <input type="file" class="w-75 mx-1 video_class " id="add_video" accept="video/mp4"  >')
+
+        })
+
+        
+        /*** Preview  image upload function ***/
+
+        var chooseFile = $("#add_image");
+        var imgList = $("#images_list");
+        var imageArray = [];
+
+        $(".input_div").on("change", "#add_image", function () {
+            var count = $(this).prop('files').length;
+
+            for (var i = 0; i < count; i++) {
+                var file = $(this).prop('files')[i];
+                if (file) {
+                    const fileReader = new FileReader();
+                   
+                    fileReader.readAsDataURL(file);
+                    fileReader.addEventListener("load", function () {
+                        imgList.append(`
+                            <div class='append_element  flex flex-column mx-1 mt-1 '  >
+                                <img src=`+ this.result + ` style='object-fit:cover;'  class='w-100 h-100' >
+                                <button class="btn_del"> <i class="fas fa-times"></i> </button>
+                            </div>
+                        `);
+                        
+                       
+                    });
+                   
+                    
+                   
+                }
+
+                 $("#add_image").remove() ;
+                 $('.input_div').append(' <input type="file" class="w-75 mx-1 image_class " id="add_image" multiple>')
+
+                
+
+            }
+            setTimeout(getImageSrc,100)
+           
+
+        });
+
+        function getImageSrc(){
+            var x= $('#images_list .append_element').length;
+                var imagesArray=[];
+               
+                for(var i = 0 ; i<x;i++){
+                    var imageSrc =  $('#images_list .append_element  img ').attr('src');
+                    imagesArray.push(imageSrc);
+                }
+                console.log(imagesArray);
+        }
+
+
+        /* Preview image delete */
+
+        $('#images_list').on('click' , '.btn_del', function(){
+            $(this).parent().remove();  
+            getImageSrc();
+        })
+
+        
+
+        /* show-hide some  input */
+
+        $('#building_type').on('change', function(){
+
+            var bina_type = $('#building_type').val();
+           
+            switch (bina_type){
+
+                case  '1' : {
+                    $('.price').css({'display': 'flex'});
+                    $('.area').css({'display': 'flex'});
+                    $('.bina_novu').css({'display': ' none'});
+                    $('.ev_villa_area').css({'display': ' none'});
+                    $('.bag_area').css({'display': ' none'});
+                    $('.office_area').css({'display': ' none'});
+                    $('.garage_area').css({'display': ' none'});
+                    $('.torpaq_area').css({'display': ' none'});
+                    $('.object_area').css({'display': ' none'});
+                    $('.floor').css({'display': 'flex'});
+                    $('.floor_count').css({'display': 'none'})
+                    $('.build_floor_count').css({'display': 'flex'})
+                    $('.ev_villa_floor_count').css({'display': ' none'});
+                    $('.bag_floor_count').css({'display': ' none'});
+                    break;
+                }
+
+                case  '2' : {
+                    $('.price').css({'display': 'flex'});
+                    $('.area').css({'display': 'flex'});
+                    $('.bina_novu').css({'display': ' none'});
+                    $('.ev_villa_area').css({'display': ' none'});
+                    $('.bag_area').css({'display': ' none'});
+                    $('.office_area').css({'display': ' none'});
+                    $('.garage_area').css({'display': ' none'});
+                    $('.torpaq_area').css({'display': ' none'});
+                    $('.object_area').css({'display': ' none'});
+                    $('.floor').css({'display': 'flex'});
+                    $('.floor_count').css({'display': ' none'})
+                    $('.build_floor_count').css({'display': 'flex'})
+                    $('.ev_villa_floor_count').css({'display': ' none'});
+                    $('.bag_floor_count').css({'display': ' none'});
+                    break;
+                }
+
+                case  '3' : {
+                    $('.price').css({'display': 'flex'});
+                    $('.bina_novu').css({'display': ' none'});
+                    $('.area').css({'display': ' none'});
+                    $('.ev_villa_area').css({'display': 'flex'});
+                    $('.bag_area').css({'display': ' none'});
+                    $('.office_area').css({'display': ' none'});
+                    $('.garage_area').css({'display': ' none'});
+                    $('.torpaq_area').css({'display': 'flex'});
+                    $('.object_area').css({'display': ' none'});
+                    $('.floor').css({'display': ' none'});
+                    $('.floor_count').css({'display': ' none'})
+                    $('.build_floor_count').css({'display': 'none'})
+                    $('.ev_villa_floor_count').css({'display': ' flex'});
+                    $('.bag_floor_count').css({'display': ' none'});
+                    break;
+                }
+                
+                case '4' : {
+                    $('.price').css({'display': 'flex'});
+                    $('.bina_novu').css({'display': ' none'});
+                    $('.area').css({'display': ' none'});
+                    $('.ev_villa_area').css({'display': 'none'});
+                    $('.bag_area').css({'display': ' flex'});
+                    $('.office_area').css({'display': ' none'});
+                    $('.garage_area').css({'display': ' none'});
+                    $('.torpaq_area').css({'display': 'flex'});
+                    $('.object_area').css({'display': ' none'});
+                    $('.floor').css({'display': ' none'});
+                    $('.floor_count').css({'display': ' none'});
+                    $('.build_floor_count').css({'display': 'none'});
+                    $('.ev_villa_floor_count').css({'display': 'none'});
+                    $('.bag_floor_count').css({'display': 'flex'});
+                    break;
+                }
+
+                case '5' : {
+                    $('.price').css({'display': 'flex'});
+                    $('.room_count').css({'display': 'flex'});
+                    $('.bina_novu').css({'display': ' flex'});
+                    $('.area').css({'display': ' none'});
+                    $('.ev_villa_area').css({'display': 'none'});
+                    $('.bag_area').css({'display': 'none'});
+                    $('.office_area').css({'display': 'flex'});
+                    $('.garage_area').css({'display': ' none'});
+                    $('.torpaq_area').css({'display': 'none'});
+                    $('.object_area').css({'display': ' none'});
+                    $('.floor').css({'display': ' none'});
+                    $('.floor_count').css({'display': ' none'});
+                    $('.build_floor_count').css({'display': 'none'})
+                    $('.ev_villa_floor_count').css({'display': 'none'});
+                    $('.bag_floor_count').css({'display': 'none'});
+                    break;
+                }
+
+                case '6' : {
+                    $('.price').css({'display': 'flex'});
+                    $('.bina_novu').css({'display': 'none'});
+                    $('.area').css({'display': ' none'});
+                    $('.ev_villa_area').css({'display': 'none'});
+                    $('.bag_area').css({'display': 'none'});
+                    $('.office_area').css({'display': 'none'});
+                    $('.garage_area').css({'display': 'flex'});
+                    $('.torpaq_area').css({'display': 'none'});
+                    $('.object_area').css({'display': ' none'});
+                    $('.floor').css({'display': ' none'});
+                    $('.floor_count').css({'display': ' none'});
+                    $('.room_count').css({'display': ' none'});
+                    $('.build_floor_count').css({'display': 'none'});
+                    $('.ev_villa_floor_count').css({'display': 'none'});
+                    $('.bag_floor_count').css({'display': 'none'});
+                    $('.metro').css({'display': 'none'});
+                    $('.esya').css({'display': 'none'});
+                    $('.temir').css({'display': 'flex'});
+                    break;
+                }
+
+                case '7' : {
+                    $('.price').css({'display': 'flex'});
+                    $('.bina_novu').css({'display': 'none'});
+                    $('.area').css({'display': ' none'});
+                    $('.ev_villa_area').css({'display': 'none'});
+                    $('.bag_area').css({'display': 'none'});
+                    $('.office_area').css({'display': 'none'});
+                    $('.garage_area').css({'display': 'none'});
+                    $('.torpaq_area').css({'display': 'flex'});
+                    $('.object_area').css({'display': ' none'});
+                    $('.floor').css({'display': ' none'});
+                    $('.floor_count').css({'display': ' none'});
+                    $('.room_count').css({'display': ' none'});
+                    $('.build_floor_count').css({'display': 'none'});
+                    $('.ev_villa_floor_count').css({'display': 'none'});
+                    $('.bag_floor_count').css({'display': 'none'});
+                    $('.metro').css({'display': 'none'});
+                    $('.esya').css({'display': 'none'});
+                    $('.temir').css({'display': 'none'});
+                    break;
+                }
+
+                case '8' : {
+                    $('.price').css({'display': 'flex'});
+                    $('.bina_novu').css({'display': 'none'});
+                    $('.area').css({'display': ' none'});
+                    $('.ev_villa_area').css({'display': 'none'});
+                    $('.bag_area').css({'display': 'none'});
+                    $('.office_area').css({'display': 'none'});
+                    $('.garage_area').css({'display': 'none'});
+                    $('.torpaq_area').css({'display': 'none'});
+                    $('.object_area').css({'display': 'flex'});
+                    $('.floor').css({'display': 'flex'});
+                    $('.floor_count').css({'display': ' none'});
+                    $('.room_count').css({'display': 'flex'});
+                    $('.build_floor_count').css({'display': 'none'});
+                    $('.ev_villa_floor_count').css({'display': 'none'});
+                    $('.bag_floor_count').css({'display': 'none'});
+                    $('.metro').css({'display': 'flex'});
+                    $('.esya').css({'display': 'flex'});
+                    $('.temir').css({'display': 'flex'});
+                    break;
+                }
+       
+
+            }
+            })
+
+
+        $('#for_sale').on('change',function(){
+            var sale= $('#for_sale').val();
+            switch( sale ){
+                case 'for_rent' :{
+                    $('.day_by_day').css({'display':'flex'});
+                    break;
+                }
+
+                default :{
+                    $('.day_by_day').css({'display':'none'});
+                    break;
+                }
+
+            }
+        })
+       
+
+
+    </script>
+   
+
+</body>
+
+
+</html>
